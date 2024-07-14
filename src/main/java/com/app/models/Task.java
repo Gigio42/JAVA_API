@@ -8,6 +8,9 @@ public class Task {
     private String dataConclusao;
     private boolean concluido;
 
+    public Task() {
+    }
+
     public Task(long id, String nome, String descricao, String dataCriacao, String dataConclusao, boolean concluido) {
         this.id = id;
         this.nome = nome;

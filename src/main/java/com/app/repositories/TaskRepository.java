@@ -41,7 +41,6 @@ public class TaskRepository {
                         rs.getString("dataConclusao"),
                         rs.getBoolean("concluido")
                 );
-
                 tasks.add(task);
             }
         } catch (SQLException e) {
