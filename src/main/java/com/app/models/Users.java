@@ -1,12 +1,12 @@
 package com.app.models;
 
-public class Usuarios {
+public class Users {
     private int id;
-    private String nome;
+    private String user;
     private String password;
 
-    public void Usuarios (String nome, int id, String password) {
-        this.nome = nome;
+    public void Users (int id, String user, String password) {
+        this.user = user;
         this.id = id;
         this.password = password;
     }
@@ -24,7 +24,7 @@ public class Usuarios {
     }
 
     public void setNome(){
-        this.nome = nome;
+        this.user = user;
     }
 
     public void setId(){
